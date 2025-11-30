@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useToast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
-import logoImage from "@/assets/logo.jpg";
+import logoImage from "@/assets/logo.png";
 
 const Auth = () => {
   const [loginData, setLoginData] = useState({ email: "", password: "" });

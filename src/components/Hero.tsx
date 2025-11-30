@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import heroImage from "@/assets/hero-meals.jpg";
-import logoImage from "@/assets/logo.jpg";
+import logoImage from "@/assets/logo.png";
 
 export const Hero = () => {
   const [email, setEmail] = useState("");

@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { useToast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
-import logoImage from "@/assets/logo.jpg";
+import logoImage from "@/assets/logo.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
