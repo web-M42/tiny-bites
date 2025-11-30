@@ -17,8 +17,8 @@ const Auth = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Login realizado!",
-      description: "Bem-vindo de volta!",
+      title: "Login successful!",
+      description: "Welcome back!",
     });
     setTimeout(() => navigate("/"), 1500);
   };
@@ -26,8 +26,8 @@ const Auth = () => {
   const handleRegister = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Cadastro realizado!",
-      description: "Sua conta foi criada com sucesso!",
+      title: "Registration successful!",
+      description: "Your account has been created successfully!",
     });
     setTimeout(() => navigate("/"), 1500);
   };
@@ -38,21 +38,21 @@ const Auth = () => {
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
           <img src={logoImage} alt="Kids Plate Pals" className="h-24 w-24 rounded-full mb-4" />
-          <h1 className="font-display text-3xl font-bold text-primary">Kids Plate Pals</h1>
+          <h1 className="font-display text-3xl font-bold text-primary">Tiny Bites</h1>
           <p className="text-xs text-muted-foreground uppercase tracking-wide">Healthy Meals for Adventurous Eaters</p>
         </div>
 
         <Tabs defaultValue="login" className="w-full">
           <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="login">Entrar</TabsTrigger>
-            <TabsTrigger value="register">Cadastrar</TabsTrigger>
+            <TabsTrigger value="login">Login</TabsTrigger>
+            <TabsTrigger value="register">Register</TabsTrigger>
           </TabsList>
 
           <TabsContent value="login">
             <Card>
               <CardHeader>
-                <CardTitle>Bem-vindo de volta</CardTitle>
-                <CardDescription>Entre com suas credenciais</CardDescription>
+                <CardTitle>Welcome Back</CardTitle>
+                <CardDescription>Log in with your credentials</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleLogin} className="space-y-4">
@@ -68,7 +68,7 @@ const Auth = () => {
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="login-password">Senha</Label>
+                    <Label htmlFor="login-password">Password</Label>
                     <Input
                       id="login-password"
                       type="password"
@@ -79,7 +79,7 @@ const Auth = () => {
                     />
                   </div>
                   <Button type="submit" className="w-full h-12 bg-gradient-hero font-semibold">
-                    Entrar
+                    Login
                   </Button>
                 </form>
               </CardContent>
@@ -89,13 +89,13 @@ const Auth = () => {
           <TabsContent value="register">
             <Card>
               <CardHeader>
-                <CardTitle>Criar Conta</CardTitle>
-                <CardDescription>Junte-se à família Kids Plate Pals</CardDescription>
+                <CardTitle>Create Account</CardTitle>
+                <CardDescription>Join the Kids Plate Pals family</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleRegister} className="space-y-4">
                   <div className="space-y-2">
-                    <Label htmlFor="register-name">Nome Completo</Label>
+                    <Label htmlFor="register-name">Full Name</Label>
                     <Input
                       id="register-name"
                       value={registerData.name}
@@ -116,7 +116,7 @@ const Auth = () => {
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="register-password">Senha</Label>
+                    <Label htmlFor="register-password">Password</Label>
                     <Input
                       id="register-password"
                       type="password"
@@ -127,7 +127,7 @@ const Auth = () => {
                     />
                   </div>
                   <Button type="submit" className="w-full h-12 bg-gradient-hero font-semibold">
-                    Cadastrar
+                    Register
                   </Button>
                 </form>
               </CardContent>
@@ -137,7 +137,7 @@ const Auth = () => {
 
         <div className="text-center mt-6">
           <Button variant="link" onClick={() => navigate("/")} className="text-muted-foreground">
-            Voltar para home
+            Back to Home
           </Button>
         </div>
       </div>

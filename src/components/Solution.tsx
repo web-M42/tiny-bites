@@ -4,20 +4,20 @@ export const Solution = () => {
   const solutions = [
     {
       icon: Zap,
-      title: "Rápido",
-      description: "Pronto em minutos no forno ou air fryer. Perfeito para o almoço da escola ou creche sem o estresse matinal.",
+      title: "Fast",
+      description: "Ready in minutes in the oven or air fryer. Perfect for school or daycare lunch without the morning stress.",
       color: "secondary",
     },
     {
       icon: Leaf,
-      title: "Saudável",
-      description: "Ingredientes limpos e naturais, baixo teor de sódio, sem aditivos. Proteínas ricas que nutrem de verdade.",
+      title: "Healthy",
+      description: "Clean and natural ingredients, low sodium, no additives. Protein-rich meals that truly nourish.",
       color: "primary",
     },
     {
       icon: Shield,
-      title: "Seguro & Divertido",
-      description: "Livre de Glúten, Laticínios, Nozes e Soja. Em formatos divertidos de animais que as crianças adoram!",
+      title: "Safe & Fun",
+      description: "Gluten, Dairy, Nut, and Soy-Free. Fun animal shapes that kids love!",
       color: "soft-orange",
     },
   ];
@@ -27,13 +27,13 @@ export const Solution = () => {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center mb-12">
           <div className="inline-block rounded-full bg-primary/10 px-4 py-2 mb-4">
-            <span className="text-sm font-semibold text-primary">Nossa Proposta de Valor</span>
+            <span className="text-sm font-semibold text-primary">Our Value Proposition</span>
           </div>
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl mb-4">
-            A Solução Completa em Uma Refeição
+            The Complete Solution in One Meal
           </h2>
           <p className="text-lg text-muted-foreground">
-            Desenvolvido especialmente para pais ocupados e creches que não querem comprometer a qualidade.
+            Designed especially for busy parents and daycares that don't want to compromise on quality.
           </p>
         </div>
 
@@ -70,15 +70,15 @@ export const Solution = () => {
             <div className="flex items-start gap-4 rounded-2xl bg-card p-6 shadow-soft">
               <span className="text-3xl">🦖</span>
               <div>
-                <h4 className="font-display font-bold text-foreground mb-2">Formatos Divertidos</h4>
-                <p className="text-sm text-muted-foreground">Ursinhos, dinossauros e coelhinhos tornam cada refeição uma aventura!</p>
+                <h4 className="font-display font-bold text-foreground mb-2">Fun Shapes</h4>
+                <p className="text-sm text-muted-foreground">Bears, dinosaurs, and bunnies make every meal an adventure!</p>
               </div>
             </div>
             <div className="flex items-start gap-4 rounded-2xl bg-card p-6 shadow-soft">
               <span className="text-3xl">👨‍🍳</span>
               <div>
-                <h4 className="font-display font-bold text-foreground mb-2">Aprovado por Especialistas</h4>
-                <p className="text-sm text-muted-foreground">Desenvolvido com nutricionistas pediátricos e testado em creches reais.</p>
+                <h4 className="font-display font-bold text-foreground mb-2">Expert Approved</h4>
+                <p className="text-sm text-muted-foreground">Developed with pediatric nutritionists and tested in real daycares.</p>
               </div>
             </div>
           </div>

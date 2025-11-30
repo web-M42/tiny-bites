@@ -13,8 +13,8 @@ export const Hero = () => {
     e.preventDefault();
     if (email) {
       toast({
-        title: "Obrigado por se inscrever!",
-        description: "Você receberá novidades em breve sobre as amostras grátis.",
+        title: "Thank you for subscribing!",
+        description: "You will soon receive updates about the free samples.",
       });
       setEmail("");
     }
@@ -24,12 +24,28 @@ export const Hero = () => {
     <section className="relative min-h-screen bg-gradient-warm">
       {/* Header */}
       <header className="container mx-auto px-4 py-6">
-        <div className="flex items-center gap-3">
-          <img src={logoImage} alt="Kids Plate Pals" className="h-16 w-16 rounded-full" />
-          <div>
-            <h1 className="font-display text-2xl font-bold text-primary">Tiny Bites</h1>
-            <p className="text-xs text-muted-foreground uppercase tracking-wide">Healthy Meals for Adventurous Eaters</p>
+        <div className="flex items-center justify-between">
+          {/* Logo Section */}
+          <div className="flex items-center gap-3">
+        <img src={logoImage} alt="Kids Plate Pals" className="h-24 w-24 rounded-full" />
+        <div>
+          <h1 className="font-display text-2xl font-bold text-primary">Tiny Bites</h1>
+          <p className="text-xs text-muted-foreground uppercase tracking-wide">Healthy Meals for Adventurous Eaters</p>
+        </div>
           </div>
+
+          {/* Navigation Links */}
+          <nav className="flex items-center gap-6">
+        <a href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+          About
+        </a>
+        <a href="/auth" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+          Auth
+        </a>
+        <a href="/contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+          Contact
+        </a>
+          </nav>
         </div>
       </header>
 
@@ -40,15 +56,15 @@ export const Hero = () => {
           <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <div className="space-y-4">
               <div className="inline-block rounded-full bg-primary/10 px-4 py-2">
-                <span className="text-sm font-semibold text-primary">✨ Agora Disponível no Canadá</span>
+                <span className="text-sm font-semibold text-primary">✨ Now Available in Canada</span>
               </div>
               <h2 className="font-display text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
-                A Solução para o Almoço Escolar:
-                <span className="block text-primary mt-2">Saudável, Rápido e Delicioso</span>
+                The Solution for School Lunches:
+                <span className="block text-primary mt-2">Healthy, Quick, and Delicious</span>
               </h2>
               <p className="text-lg text-muted-foreground md:text-xl">
-                Junte-se à lista de espera e seja um dos primeiros a experimentar nossos{" "}
-                <span className="font-semibold text-foreground">Cotoletas de Frango em Formato de Animais</span> feitas com ingredientes 100% naturais.
+                Join the waitlist and be one of the first to try our{" "}
+                <span className="font-semibold text-foreground">Animal-Shaped Chicken Cutlets</span> made with 100% natural ingredients.
               </p>
             </div>
 
@@ -56,7 +72,7 @@ export const Hero = () => {
             <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:flex-row sm:gap-4">
               <Input
                 type="email"
-                placeholder="seu@email.com"
+                placeholder="your@email.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -67,7 +83,7 @@ export const Hero = () => {
                 size="lg"
                 className="h-14 bg-gradient-hero font-display text-lg font-bold shadow-soft hover:shadow-card hover:scale-105 transition-all"
               >
-                🎁 Quero Amostras Grátis!
+                🎁 I Want Free Samples!
               </Button>
             </form>
 
@@ -79,11 +95,11 @@ export const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-xl">✓</span>
-                <span>Livre de Alergias</span>
+                <span>Allergy-Free</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-xl">✓</span>
-                <span>Aprovado por Nutricionistas</span>
+                <span>Nutritionist Approved</span>
               </div>
             </div>
           </div>
@@ -93,14 +109,14 @@ export const Hero = () => {
             <div className="relative overflow-hidden rounded-3xl shadow-card">
               <img
                 src={heroImage}
-                alt="Cotoletas de frango em formato de animais com vegetais"
+                alt="Animal-shaped chicken cutlets with vegetables"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
             {/* Floating Badge */}
             <div className="absolute -bottom-6 -left-6 rounded-2xl bg-secondary px-6 py-4 shadow-card animate-in zoom-in duration-500 delay-700">
-              <p className="font-display text-2xl font-bold text-secondary-foreground">Pronto em 10min!</p>
+              <p className="font-display text-2xl font-bold text-secondary-foreground">Ready in 10min!</p>
             </div>
           </div>
         </div>

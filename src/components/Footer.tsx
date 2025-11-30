@@ -17,16 +17,16 @@ export const Footer = () => {
 
           {/* Tagline */}
           <p className="text-background/80 max-w-md">
-            Trazendo alegria e nutrição para famílias canadenses, uma refeição de cada vez.
+            Bringing joy and nutrition to Canadian families, one meal at a time.
           </p>
 
           {/* Links */}
           <div className="flex flex-wrap justify-center gap-6 text-sm text-background/70">
-            <NavLink to="/about">Sobre Nós</NavLink>
-            <NavLink to="/contact">Contato</NavLink>
+            <NavLink to="/about">About Us</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
             <NavLink to="/auth">Login</NavLink>
-            <a href="#produtos" className="hover:text-background transition-colors">Produtos</a>
-            <a href="#" className="hover:text-background transition-colors">Política de Privacidade</a>
+            <a href="#produtos" className="hover:text-background transition-colors">Products</a>
+            <a href="#" className="hover:text-background transition-colors">Privacy Policy</a>
           </div>
 
           {/* Copyright */}

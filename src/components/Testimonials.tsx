@@ -4,20 +4,20 @@ export const Testimonials = () => {
   const testimonials = [
     {
       name: "Sarah M.",
-      role: "Mãe de 2",
-      text: "Meu filho finalmente comeu brócolis! As cotoletas de dinossauro são um sucesso total em casa. Adorei saber que são livres de glúten!",
+      role: "Mother of 2",
+      text: "My child finally ate broccoli! The dinosaur cutlets are a total hit at home. I love knowing they're gluten-free!",
       rating: 5,
     },
     {
       name: "Maple Leaf Daycare",
-      role: "Diretora de Creche",
-      text: "Fácil de reaquecer, perfeito para o nosso menu semanal. Os pais adoram saber que estamos servindo algo tão nutritivo e seguro.",
+      role: "Daycare Director",
+      text: "Easy to reheat, perfect for our weekly menu. Parents love knowing we're serving something so nutritious and safe.",
       rating: 5,
     },
     {
       name: "Michael P.",
-      role: "Pai Ocupado",
-      text: "Economiza tanto tempo! Agora não me sinto culpado por não cozinhar do zero. Minha filha pede os 'chicken bears' todos os dias!",
+      role: "Busy Dad",
+      text: "Saves so much time! Now I don't feel guilty for not cooking from scratch. My daughter asks for the 'chicken bears' every day!",
       rating: 5,
     },
   ];
@@ -27,10 +27,10 @@ export const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center mb-12">
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl mb-4">
-            Famílias e Creches Adoram! ❤️
+            Families and Daycares Love It! ❤️
           </h2>
           <p className="text-lg text-muted-foreground">
-            Veja o que nossos early adopters têm a dizer sobre HappyCub Meals.
+            See what our early adopters have to say about HappyCub Meals.
           </p>
         </div>
 

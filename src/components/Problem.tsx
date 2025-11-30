@@ -4,18 +4,18 @@ export const Problem = () => {
   const problems = [
     {
       icon: Clock,
-      title: "Falta de Tempo",
-      description: "Pais ocupados lutam para preparar refeições saudáveis todos os dias entre trabalho e escola.",
+      title: "Lack of Time",
+      description: "Busy parents struggle to prepare healthy meals every day between work and school.",
     },
     {
       icon: AlertCircle,
-      title: "Preocupação com Alergias",
-      description: "Difícil encontrar opções seguras que sejam livres de glúten, laticínios, nozes e soja.",
+      title: "Allergy Concerns",
+      description: "It's hard to find safe options that are free of gluten, dairy, nuts, and soy.",
     },
     {
       icon: Heart,
-      title: "Culpa dos Pais",
-      description: "A culpa de não oferecer refeições caseiras e nutritivas todos os dias pesa muito.",
+      title: "Parental Guilt",
+      description: "The guilt of not offering homemade, nutritious meals every day weighs heavily.",
     },
   ];
 
@@ -24,10 +24,10 @@ export const Problem = () => {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center mb-12">
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl mb-4">
-            Nós Entendemos Seus Desafios
+            We Understand Your Challenges
           </h2>
           <p className="text-lg text-muted-foreground">
-            Preparar refeições saudáveis, seguras e que as crianças realmente comam é um desafio diário.
+            Preparing healthy, safe meals that kids will actually eat is a daily challenge.
           </p>
         </div>
 

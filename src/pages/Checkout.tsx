@@ -23,8 +23,8 @@ const Checkout = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Pedido Recebido!",
-      description: "Entraremos em contato em breve para confirmar seu pedido.",
+      title: "Order Received!",
+      description: "We will contact you soon to confirm your order.",
     });
     setTimeout(() => navigate("/"), 2000);
   };
@@ -51,15 +51,15 @@ const Checkout = () => {
         <div className="max-w-2xl mx-auto">
           <Card>
             <CardHeader>
-              <CardTitle className="text-3xl font-display text-center">Finalize Seu Pedido</CardTitle>
+              <CardTitle className="text-3xl font-display text-center">Complete Your Order</CardTitle>
               <CardDescription className="text-center">
-                Preencha seus dados e entraremos em contato para confirmar
+                Fill in your details and we will contact you to confirm
               </CardDescription>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Nome Completo</Label>
+                  <Label htmlFor="name">Full Name</Label>
                   <Input
                     id="name"
                     name="name"
@@ -84,7 +84,7 @@ const Checkout = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="phone">Telefone</Label>
+                  <Label htmlFor="phone">Phone</Label>
                   <Input
                     id="phone"
                     name="phone"
@@ -97,7 +97,7 @@ const Checkout = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="address">Endereço</Label>
+                  <Label htmlFor="address">Address</Label>
                   <Input
                     id="address"
                     name="address"
@@ -110,7 +110,7 @@ const Checkout = () => {
 
                 <div className="grid gap-4 md:grid-cols-2">
                   <div className="space-y-2">
-                    <Label htmlFor="city">Cidade</Label>
+                    <Label htmlFor="city">City</Label>
                     <Input
                       id="city"
                       name="city"
@@ -122,7 +122,7 @@ const Checkout = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="postalCode">Código Postal</Label>
+                    <Label htmlFor="postalCode">Postal Code</Label>
                     <Input
                       id="postalCode"
                       name="postalCode"
@@ -138,7 +138,7 @@ const Checkout = () => {
                   type="submit" 
                   className="w-full h-14 text-lg font-bold bg-gradient-hero"
                 >
-                  Confirmar Pedido
+                  Confirm Order
                 </Button>
               </form>
             </CardContent>
