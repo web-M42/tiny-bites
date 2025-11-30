@@ -8,26 +8,26 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 35 25% 97%;
-    --foreground: 25 15% 20%;
+    --background: 45 35% 95%;
+    --foreground: 180 35% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 15% 20%;
+    --card-foreground: 180 35% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 15% 20%;
+    --popover-foreground: 180 35% 25%;
 
-    --primary: 152 48% 42%;
+    --primary: 180 45% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 88% 58%;
-    --secondary-foreground: 25 15% 20%;
+    --secondary: 25 85% 60%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 35 20% 92%;
-    --muted-foreground: 25 10% 45%;
+    --muted: 45 25% 90%;
+    --muted-foreground: 180 20% 45%;
 
-    --accent: 35 88% 58%;
-    --accent-foreground: 25 15% 20%;
+    --accent: 25 85% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -38,17 +38,18 @@ All colors MUST be HSL.
 
     --radius: 1rem;
 
-    /* Custom tokens */
-    --warm-cream: 40 30% 96%;
-    --emerald: 152 48% 42%;
-    --golden: 35 88% 58%;
-    --soft-orange: 25 85% 65%;
+    /* Custom tokens - Kids Plate Pals colors */
+    --warm-cream: 45 40% 94%;
+    --teal: 180 45% 35%;
+    --golden: 45 90% 60%;
+    --soft-orange: 25 85% 60%;
+    --lime-green: 85 50% 55%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(var(--emerald)) 0%, hsl(var(--primary)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--teal)) 0%, hsl(var(--lime-green)) 100%);
     --gradient-warm: linear-gradient(180deg, hsl(var(--warm-cream)) 0%, hsl(var(--background)) 100%);
     
-    --shadow-soft: 0 4px 20px -4px hsl(152 48% 42% / 0.15);
-    --shadow-card: 0 8px 30px -6px hsl(25 15% 20% / 0.1);
+    --shadow-soft: 0 4px 20px -4px hsl(180 45% 35% / 0.15);
+    --shadow-card: 0 8px 30px -6px hsl(180 35% 25% / 0.1);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -63,25 +64,25 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 25 20% 12%;
-    --foreground: 35 25% 95%;
+    --background: 180 25% 12%;
+    --foreground: 45 30% 95%;
 
-    --card: 25 18% 16%;
-    --card-foreground: 35 25% 95%;
+    --card: 180 20% 16%;
+    --card-foreground: 45 30% 95%;
 
-    --popover: 25 18% 16%;
-    --popover-foreground: 35 25% 95%;
+    --popover: 180 20% 16%;
+    --popover-foreground: 45 30% 95%;
 
-    --primary: 152 48% 50%;
+    --primary: 180 50% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 75% 48%;
+    --secondary: 25 80% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 25 15% 20%;
-    --muted-foreground: 35 15% 65%;
+    --muted: 180 15% 20%;
+    --muted-foreground: 45 15% 65%;
 
-    --accent: 35 75% 48%;
+    --accent: 25 80% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 45%;
@@ -89,12 +90,13 @@ All colors MUST be HSL.
 
     --border: 25 15% 24%;
     --input: 25 15% 24%;
-    --ring: 152 48% 50%;
+    --ring: 180 50% 45%;
     
-    --warm-cream: 40 10% 18%;
-    --emerald: 152 48% 50%;
-    --golden: 35 75% 48%;
-    --soft-orange: 25 70% 55%;
+    --warm-cream: 45 15% 18%;
+    --teal: 180 50% 45%;
+    --golden: 45 80% 55%;
+    --soft-orange: 25 75% 55%;
+    --lime-green: 85 45% 50%;
     
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;

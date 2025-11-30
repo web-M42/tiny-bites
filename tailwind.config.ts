@@ -58,9 +58,10 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         "warm-cream": "hsl(var(--warm-cream))",
-        emerald: "hsl(var(--emerald))",
+        teal: "hsl(var(--teal))",
         golden: "hsl(var(--golden))",
         "soft-orange": "hsl(var(--soft-orange))",
+        "lime-green": "hsl(var(--lime-green))",
       },
       backgroundImage: {
         "gradient-hero": "var(--gradient-hero)",

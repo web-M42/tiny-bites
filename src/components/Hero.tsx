@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import heroImage from "@/assets/hero-meals.jpg";
-import logoIcon from "@/assets/logo-icon.png";
+import logoImage from "@/assets/logo.jpg";
 
 export const Hero = () => {
   const [email, setEmail] = useState("");
@@ -25,10 +25,10 @@ export const Hero = () => {
       {/* Header */}
       <header className="container mx-auto px-4 py-6">
         <div className="flex items-center gap-3">
-          <img src={logoIcon} alt="HappyCub Meals" className="h-12 w-12" />
+          <img src={logoImage} alt="Kids Plate Pals" className="h-16 w-16 rounded-full" />
           <div>
-            <h1 className="font-display text-2xl font-bold text-primary">HappyCub Meals</h1>
-            <p className="text-xs text-muted-foreground">Refeições que fazem sorrir</p>
+            <h1 className="font-display text-2xl font-bold text-primary">Kids Plate Pals</h1>
+            <p className="text-xs text-muted-foreground uppercase tracking-wide">Healthy Meals for Adventurous Eaters</p>
           </div>
         </div>
       </header>
