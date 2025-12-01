@@ -59,7 +59,7 @@ export const Hero = () => {
                 <span className="text-sm font-semibold text-primary">✨ Now Available in Canada</span>
               </div>
               <h2 className="font-display text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
-                The Solution for School Lunches:
+                The best meals for kids are here:
                 <span className="block text-primary mt-2">Healthy, Quick, and Delicious</span>
               </h2>
               <p className="text-lg text-muted-foreground md:text-xl">

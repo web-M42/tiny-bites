@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import dish1 from "@/assets/dish1.jpeg";
 import dish2 from "@/assets/dish2.jpeg";
 import dish3 from "@/assets/dish3.jpeg";
-import dish4 from "@/assets/dish4.jpeg";
+import dish5 from "@/assets/dish5.jpeg";
 
 export const Products = () => {
   const navigate = useNavigate();
@@ -14,15 +14,15 @@ export const Products = () => {
   const products = [
     {
       id: 1,
-      name: "Chicken Cutlets - Lion Shape",
-      description: "100% natural chicken cutlets in lion shape, gluten-free, dairy-free, and nut-free.",
+      name: "Organic Chicken meatballs",
+      description: "100% natural chicken cutlets in ball shape, gluten-free, dairy-free, and nut-free.",
       price: "12.99",
       servings: "6 units",
       image: dish1
     },
     {
       id: 2,
-      name: "Chicken Cutlets - Fox Shape",
+      name: "Salmon patties",
       description: "Delicious cutlets in fox shape, perfect for little adventurers.",
       price: "12.99",
       servings: "6 units",
@@ -30,7 +30,7 @@ export const Products = () => {
     },
     {
       id: 3,
-      name: "Fun Veggie Mix",
+      name: "Naturally coloured dumplings",
       description: "Selected broccoli and carrots, easy to prepare and super nutritious.",
       price: "8.99",
       servings: "8 servings",
@@ -42,7 +42,7 @@ export const Products = () => {
       description: "Complete package with 12 assorted cutlets and veggies for the whole week.",
       price: "29.99",
       servings: "12 meals",
-      image: dish4
+      image: dish5
     }
   ];
 
@@ -87,7 +87,7 @@ export const Products = () => {
         <div className="bg-card rounded-3xl p-8 md:p-12 shadow-card">
           <div className="text-center space-y-6">
             <h3 className="font-display text-3xl font-bold text-foreground">
-              Why Choose Kids Plate Pals?
+              Why Choose Tiny Bites?
             </h3>
             <div className="grid gap-6 md:grid-cols-3 mt-8">
               <div className="space-y-3">

@@ -30,7 +30,7 @@ export const Testimonials = () => {
             Families and Daycares Love It! ❤️
           </h2>
           <p className="text-lg text-muted-foreground">
-            See what our early adopters have to say about HappyCub Meals.
+            See what our early adopters have to say about Tiny Bites.
           </p>
         </div>
 

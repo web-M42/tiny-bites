@@ -11,8 +11,8 @@ export const FinalCTA = () => {
     e.preventDefault();
     if (email) {
       toast({
-        title: "Você está na lista! 🎉",
-        description: "Em breve enviaremos informações sobre as amostras grátis.",
+        title: "You're on the list! 🎉",
+        description: "We'll send you information about the free samples soon.",
       });
       setEmail("");
     }
@@ -26,16 +26,16 @@ export const FinalCTA = () => {
       <div className="container relative mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-6 inline-block rounded-full bg-white/20 px-6 py-3 backdrop-blur-sm">
-            <span className="text-sm font-semibold text-white">✨ Oferta Limitada para Early Adopters</span>
+            <span className="text-sm font-semibold text-white">✨ Limited Offer for Early Adopters</span>
           </div>
           
           <h2 className="font-display text-4xl font-bold text-white md:text-5xl mb-6">
-            Cadastre-se Agora e Ganhe Amostras Grátis!
+            Sign Up Now and Get Free Samples!
           </h2>
           
           <p className="text-lg text-white/90 mb-10 leading-relaxed">
-            Seja um dos primeiros 500 a experimentar HappyCub Meals. 
-            Receba amostras grátis + desconto exclusivo no primeiro pedido.
+            Be one of the first 500 to try HappyCub Meals. 
+            Receive free samples + an exclusive discount on your first order.
           </p>
 
           {/* Email Form */}
@@ -43,7 +43,7 @@ export const FinalCTA = () => {
             <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
               <Input
                 type="email"
-                placeholder="Digite seu melhor email"
+                placeholder="Enter your best email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -54,7 +54,7 @@ export const FinalCTA = () => {
                 size="lg"
                 className="h-14 bg-secondary text-secondary-foreground font-display text-lg font-bold shadow-card hover:bg-golden hover:scale-105 transition-all"
               >
-                Garantir Vaga →
+                Claim Your Spot →
               </Button>
             </div>
           </form>
@@ -63,24 +63,24 @@ export const FinalCTA = () => {
           <div className="mt-10 flex flex-wrap justify-center gap-8 text-sm text-white/80">
             <div className="flex items-center gap-2">
               <span className="text-2xl">🔒</span>
-              <span>100% Seguro</span>
+              <span>100% Secure</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">📧</span>
-              <span>Sem Spam</span>
+              <span>No Spam</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">🎁</span>
-              <span>Amostras Grátis</span>
+              <span>Free Samples</span>
             </div>
           </div>
 
           {/* Social Proof */}
           <div className="mt-12 rounded-2xl bg-white/10 backdrop-blur-sm p-6">
             <p className="text-white/90 font-medium mb-2">
-              <span className="font-display text-2xl font-bold text-white">987</span> pais já se cadastraram esta semana!
+              <span className="font-display text-2xl font-bold text-white">987</span> parents have signed up this week!
             </p>
-            <p className="text-sm text-white/70">Vagas limitadas para o primeiro lote de amostras</p>
+            <p className="text-sm text-white/70">Limited spots available for the first batch of samples</p>
           </div>
         </div>
       </div>
