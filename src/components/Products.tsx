@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import dish1 from "@/assets/dish1.jpeg";
 import dish2 from "@/assets/dish2.jpeg";
 import dish3 from "@/assets/dish3.jpeg";
+import dish4 from "@/assets/dish4.jpeg";
 import dish5 from "@/assets/dish5.jpeg";
 
 export const Products = () => {
@@ -26,7 +27,7 @@ export const Products = () => {
       description: "Delicious cutlets in fox shape, perfect for little adventurers.",
       price: "12.99",
       servings: "6 units",
-      image: dish2
+      image: dish5
     },
     {
       id: 3,
@@ -42,7 +43,7 @@ export const Products = () => {
       description: "Complete package with 12 assorted cutlets and veggies for the whole week.",
       price: "29.99",
       servings: "12 meals",
-      image: dish5
+      image: dish4
     }
   ];
 
